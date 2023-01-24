@@ -4,6 +4,7 @@
     <head>
       <title>Edgar Allan Poe</title>
       <link rel="stylesheet" href="style.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,11 +14,25 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Edgar Allan Poe</h2>
             <div>
-              <a class="links-navegacao">Habilidades</a>
-              <a class="links-navegacao">Portifólio</a>
-              <a class="links-navegacao">Experiência</a>
+              <a
+                onclick="onClickScrollTo('section-abilities')"
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onClickScrollTo('section-portfolio')"
+                >Portifólio</a
+              >
+              <a
+                class="links-navegacao"
+                onclick="onClickScrollTo('section-experiences')"
+                >Experiência</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -31,7 +46,9 @@
                 Maryland, nos Estados Unidos, 7 de outubro de 1849) foi um
                 autor, poeta, editor e crítico literário estadunidense
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-container">
                 <a>
                   <img
@@ -72,7 +89,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades</h2>
           <h2 class="verde">que domino.</h2>
           <div class="ability-cards-container">
@@ -153,7 +170,7 @@
             </div>
           </div>
         </section>
-        <section class="section-potfolio">
+        <section class="section-potfolio" id="section-portfolio">
           <h2>Porfólio</h2>
           <h2 class="verde">de projetos.</h2>
           <div class="section-potfolio-grid">
@@ -234,7 +251,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experiências</h2>
           <h2 class="verde">Profissionais.</h2>
           <div class="section-experiences-card">
@@ -276,7 +293,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar ?</h2>
           <p>Estou a disposição para ajudar o seu projeto ou a sua empresa.</p>
