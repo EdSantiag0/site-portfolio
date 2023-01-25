@@ -21,7 +21,7 @@ h2 {
   padding: 0px;
 }
 h2.verde {
-  color: #219653;
+  color: #482196;
 }
 
 h5 {
@@ -36,10 +36,14 @@ li {
   margin-bottom: 12px;
 }
 
+a {
+  color: #1e1e1e;
+}
+
 button {
   height: 56px;
   border-radius: 16px;
-  background-color: #219653;
+  background-color: #482196;
   border-width: 0px;
   color: #fefefe;
   font-size: 16px;
@@ -136,10 +140,10 @@ footer {
 }
 
 .hero-info-image {
-  height: 594px;
-  width: 542px;
+  height: 542px;
+  width: 400px;
   border-radius: 40px;
-  border-color: #219653;
+  border-color: #482196;
   border-width: 4px;
   border-style: solid;
 }
@@ -199,7 +203,7 @@ footer {
   width: 80px;
   height: 80px;
   border-radius: 40px;
-  background-color: #219653;
+  background-color: #482196;
   margin-bottom: 12px;
 }
 
@@ -340,6 +344,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .section-contact-item-icon {
