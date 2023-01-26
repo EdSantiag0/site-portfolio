@@ -12,9 +12,18 @@
     font-size: 36px;
   }
 
+  p {
+    font-size: 24px;
+  }
+
   p.card {
     font-size: 24px;
     margin-top: 12px;
+  }
+
+  a {
+    font-size: 28px;
+    color: #1e1e1e;
   }
 
   button {
@@ -80,8 +89,18 @@
     margin-bottom: 40px;
   }
 
+  .section-experiences {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
   .section-experiences-card {
-    width: 90vw;
+    width: 94vw;
+    margin-top: 40px;
+  }
+
+  .section-contact {
+    padding-bottom: 60px;
   }
 
   .ability-cards-container {
@@ -128,7 +147,7 @@
   }
 
   .footer-content {
-    width: 100%;
+    width: 94vw;
   }
 
   .hero-info-icons-img {
