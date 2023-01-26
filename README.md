@@ -16,7 +16,7 @@ Com o principal objetivo de criar um website com as minhas informações profici
 
 ## Instrução para executar:
 
-1. Clone the project:
+1. Copio o projeto:
 
 ```
 git clone https://github.com/EdSantiag0/site-portfolio.git
