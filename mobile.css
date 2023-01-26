@@ -103,9 +103,30 @@
 
   .section-potfolio-grid {
     row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 24px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 40px;
   }
+
+  .section-potfolio-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 46vw;
+    height: auto;
+    padding: 24px 0px;
+  }
+
+  .section-potfolio-card-links {
+    width: 40%;
+  }
+
+  .section-potfolio-card-icon-image {
+    width: 40px;
+    height: auto;
+  }
+
   .footer-content {
     width: 100%;
   }
