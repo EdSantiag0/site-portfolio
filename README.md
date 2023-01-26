@@ -13,3 +13,23 @@ Com o principal objetivo de criar um website com as minhas informações profici
 - DOM manipulation
 - Events
 - CSS Media Query
+
+## Instrução para executar:
+
+1. Clone the project:
+
+```
+git clone https://github.com/EdSantiag0/site-portfolio.git
+```
+
+2. Depois de copiar abra a pasta:
+
+```
+site-portifolio
+```
+
+3. Abra o arquivo de índice com o navegador
+
+```
+index.html
+```
