@@ -7,6 +7,10 @@ Com o principal objetivo de criar um website com as minhas informações profici
 
 <img src="https://github.com/EdSantiag0/site-portfolio/blob/main/preview.png">
 
+## Live link:
+
+https://edsantiag0.github.io/site-portfolio/
+
 ## Meus conceitos aplicados
 
 - Flexbox
